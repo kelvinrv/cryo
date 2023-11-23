@@ -1,0 +1,24 @@
+
+
+First: Check the Cryostat IP parameters, change the computer parameters and then IQS
+Connection: USB-Pannel control cryostat to computer. Ethernet Pannel Cryostat and Ethernet IQS (both) to the switch and one of the ethernet port to the computer 
+
+*** Cryostat
+State UP
+IP 192.168.1.1
+Netmask 255.255.0.0
+Gateway 169.254.175.126
+
+*** Computer
+IP assignment: Manual
+IPv4 adress 192.168.1.2
+Subnet mask 255.255.0.0
+length:16 (every 255 is iqual to 8)
+link IP gate/port 192.168.1.255
+
+*** IQS-605P HS
+IPv4 adress 192.168.1.3
+IPv4 Subnet mask 255.255.0.0
+IPv4 Default Gateway 10.73.97.1
+
+ 
