@@ -1,0 +1,8 @@
+git remote -v 
+git remote remove origin
+git remote remote origin
+git init
+git remote add origin http://github.com/kelvinrv/cmetal.git
+git commit -m
+git push -u origin master
+git push -u origin master -f
